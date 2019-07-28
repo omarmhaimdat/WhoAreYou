@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		6C83711622EC5E1A00FAB431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C83711522EC5E1A00FAB431 /* AppDelegate.swift */; };
 		6C83711822EC5E1A00FAB431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C83711722EC5E1A00FAB431 /* ViewController.swift */; };
-		6C83711B22EC5E1A00FAB431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C83711922EC5E1A00FAB431 /* Main.storyboard */; };
 		6C83711E22EC5E1A00FAB431 /* WhoAreYou.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C83711C22EC5E1A00FAB431 /* WhoAreYou.xcdatamodeld */; };
 		6C83712022EC5E1B00FAB431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C83711F22EC5E1B00FAB431 /* Assets.xcassets */; };
 		6C83712322EC5E1B00FAB431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C83712122EC5E1B00FAB431 /* LaunchScreen.storyboard */; };
+		6C83712D22EC7E1700FAB431 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C83712C22EC7E1700FAB431 /* art.scnassets */; };
+		6C8AE42C22ECAEA5009D647C /* FaceRecognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C8AE42B22ECAEA5009D647C /* FaceRecognition.mlmodel */; };
+		6C8AE42E22ECB59A009D647C /* FaceRecognition2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C8AE42D22ECB59A009D647C /* FaceRecognition2.mlmodel */; };
+		6C8AE43022ECBB0E009D647C /* FaceRecognition3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C8AE42F22ECBB0E009D647C /* FaceRecognition3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C83711222EC5E1A00FAB431 /* WhoAreYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoAreYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C83711522EC5E1A00FAB431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C83711722EC5E1A00FAB431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C83711A22EC5E1A00FAB431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C83711D22EC5E1A00FAB431 /* WhoAreYou.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhoAreYou.xcdatamodel; sourceTree = "<group>"; };
 		6C83711F22EC5E1B00FAB431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C83712222EC5E1B00FAB431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C83712422EC5E1B00FAB431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C83712C22EC7E1700FAB431 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6C8AE42B22ECAEA5009D647C /* FaceRecognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognition.mlmodel; sourceTree = "<group>"; };
+		6C8AE42D22ECB59A009D647C /* FaceRecognition2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognition2.mlmodel; sourceTree = "<group>"; };
+		6C8AE42F22ECBB0E009D647C /* FaceRecognition3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognition3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		6C83711422EC5E1A00FAB431 /* WhoAreYou */ = {
 			isa = PBXGroup;
 			children = (
+				6C8AE42B22ECAEA5009D647C /* FaceRecognition.mlmodel */,
+				6C8AE42D22ECB59A009D647C /* FaceRecognition2.mlmodel */,
+				6C8AE42F22ECBB0E009D647C /* FaceRecognition3.mlmodel */,
 				6C83711522EC5E1A00FAB431 /* AppDelegate.swift */,
 				6C83711722EC5E1A00FAB431 /* ViewController.swift */,
-				6C83711922EC5E1A00FAB431 /* Main.storyboard */,
 				6C83711F22EC5E1B00FAB431 /* Assets.xcassets */,
 				6C83712122EC5E1B00FAB431 /* LaunchScreen.storyboard */,
 				6C83712422EC5E1B00FAB431 /* Info.plist */,
 				6C83711C22EC5E1A00FAB431 /* WhoAreYou.xcdatamodeld */,
+				6C83712C22EC7E1700FAB431 /* art.scnassets */,
 			);
 			path = WhoAreYou;
 			sourceTree = "<group>";
@@ -126,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C83712322EC5E1B00FAB431 /* LaunchScreen.storyboard in Resources */,
+				6C83712D22EC7E1700FAB431 /* art.scnassets in Resources */,
 				6C83712022EC5E1B00FAB431 /* Assets.xcassets in Resources */,
-				6C83711B22EC5E1A00FAB431 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +147,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8AE42E22ECB59A009D647C /* FaceRecognition2.mlmodel in Sources */,
 				6C83711822EC5E1A00FAB431 /* ViewController.swift in Sources */,
 				6C83711E22EC5E1A00FAB431 /* WhoAreYou.xcdatamodeld in Sources */,
+				6C8AE43022ECBB0E009D647C /* FaceRecognition3.mlmodel in Sources */,
 				6C83711622EC5E1A00FAB431 /* AppDelegate.swift in Sources */,
+				6C8AE42C22ECAEA5009D647C /* FaceRecognition.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6C83711922EC5E1A00FAB431 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C83711A22EC5E1A00FAB431 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6C83712122EC5E1B00FAB431 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
