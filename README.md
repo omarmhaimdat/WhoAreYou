@@ -7,7 +7,7 @@
 
 I've wrote a full medium tutorial:
 
-###**[Medium Article](https://medium.com/better-programming/face-detection-and-recognition-with-coreml-and-arkit-8b676b7448be)**
+**[Medium Article](https://medium.com/better-programming/face-detection-and-recognition-with-coreml-and-arkit-8b676b7448be)**
 
 ## Final Result:
 
